@@ -1,0 +1,9 @@
+Package: com.TweaksByLogan.Indago
+Name: Indago
+Depends: mobilesubstrate, libactivator
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: The Internet, at your fingertips.
+Maintainer: Logan O'Connell
+Author: Logan O'Connell
+Section: Tweaks

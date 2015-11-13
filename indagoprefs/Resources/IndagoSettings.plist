@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+	    	<key>cell</key>				<string>PSGroupCell</string>
+	    	<key>footerCellClass</key>	<string>IndagoSettingsCustomCell</string>
+		</dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>			<string>Indago Browser</string>
+            <key>footerText</key>       <string>Hold the close button on the browser to open the current URL in Safari, and hold the "Open Tabs" button in Safari to open the current URL in the browser.</string>
+            <key>footerAlignment</key>  <integer>1</integer>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>openLinksWithBrowser</string>
+            <key>label</key>            <string>Open Links With Browser</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>useURLSharing</string>
+            <key>label</key>            <string>Use URL Sharing</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>footerText</key>       <string>Change the corner radius of the browser.</string>
+            <key>footerAlignment</key>  <integer>1</integer>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>preloadGoogleEnabled</string>
+            <key>label</key>            <string>Preload Google Homepage</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>loadAfterClose</string>
+            <key>label</key>            <string>Continue Loading After Close</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>loadInMinimizedMode</string>
+            <key>label</key>            <string>Load In Minimized Mode</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>browserShowStatusBar</string>
+            <key>label</key>            <string>Show Status Bar</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>addShadowToBrowser</string>
+            <key>label</key>            <string>Add Shadow To Browser</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>browserUseLightMode</string>
+            <key>label</key>            <string>Use Light Mode</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>browserCloseWithHomeButton</string>
+            <key>label</key>            <string>Close With Home Button</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSliderCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSliderCell</string>
+            <key>default</key>          <real>0.0</real>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>browserCornerRadius</string>
+            <key>max</key>              <integer>50</integer>
+            <key>min</key>              <integer>0</integer>
+            <key>showValue</key>        <true/>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago</string>
+        </dict>
+
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>			<string>Indago Search</string>
+            <key>footerText</key>       <string>Change the percentage of the screen the home screen search bar is pushed down.</string>
+            <key>footerAlignment</key>  <integer>1</integer>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>homeScreenSearchBarEnabled</string>
+            <key>label</key>            <string>Add To Home Screen</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <false/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>searchUseLightMode</string>
+            <key>label</key>            <string>Use Light Mode</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>searchCloseWithHomeButton</string>
+            <key>label</key>            <string>Close With Home Button</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSliderCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSliderCell</string>
+            <key>default</key>          <real>0.0</real>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>searchPushDownPercent</string>
+            <key>max</key>              <integer>50</integer>
+            <key>min</key>              <integer>0</integer>
+            <key>showValue</key>        <true/>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago</string>
+        </dict>
+
+		<dict>
+        	<key>cell</key>				<string>PSGroupCell</string>
+			<key>footerText</key>		<string>A respring is required to activate changes.</string>
+			<key>footerAlignment</key>	<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>   <string></string>
+</dict>
+</plist>

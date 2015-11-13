@@ -1,0 +1,10 @@
+{
+    entry = {
+		bundle = IndagoPrefs;
+		cell = PSLinkCell;
+		detail = IndagoPrefsListController;
+		icon = IndagoPrefs.png;
+		isController = 1;
+		label = Indago;
+    };
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>footerCellClass</key>	<string>IndagoInstructionsCustomCell</string>
+		</dict>
+		
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Indago Browser</string>
+			<key>footerText</key>		<string>Welcome to the Indago Browser! Here is a list of features:
+
+- In the top toolbar, the plus button will expand the browser or minimize it based on its current size.
+- If you hold the plus button, the browser will shrink and pin itself to the nearest corner of the screen.
+- Also in the top toolbar, the share button will display the stock share sheet where you can share the current URL displayed in the browser.
+- The search bar at the top of the browser will contain the title of the website and either a lock or unlock icon, which displays if the site you are visiting loads its content securely over SSL.
+- When tapped, the search bar will contain the full URL of the current site in the browser.
+- In the web view, you can use left or right swipe gestures to go back and forth in your history, respectively.
+- In the bottom toolbar, there are back and forward buttons to go back and forth in your history as well.
+- Next to the back and forth buttons is the search button, which will launch the search bar with no text in it, making it ideal for quick Google searches.
+- The next button on the bottom toolbar is the refresh button, which will reload the current page.
+- When a website is loading, the refresh button is replaced by a spinning loading icon, which can be tapped to stop loading the current page.
+- The last button in the bottom toolbar is the close button, which when tapped will close the browser.
+- If you hold the close button, the current URL in the browser will be opened in Safari.
+- Holding the "Open Tabs" button in Safari will open the current URL in the browser.
+- You can drag the browser window around and push it into corners.
+- Pushing the browser window into a corner will cause the window to shrink and pin itself to the corner it was pushed into. You can now drag it around and pin it to the other corners of your screen.
+- You can pinch on the top and bottom toolbars to resize the browser window.
+- The browser window will snap into fullscreen when its size is close enough.
+- The browser window can be triggered via Activator or when a link is tapped in an app.
+- There are options in the Settings pane to configure the browser.</string>
+		</dict>
+
+		<dict>
+			<key>cell</key>				<string>PSGroupCell</string>
+			<key>label</key>			<string>Indago Search</string>
+			<key>footerText</key>		<string>Welcome to the Indago Search! Here is a list of features:
+
+- In the search bar, you can enter a Google search or a URL and it will open your query in the browser if you have it enabled, otherwise it will open the query in Safari.
+- The search bar can be used with Activator and placed directly on your homescreen.
+- The search bar can be triggered via Activator.
+- There are options in the Settings pane to configure the search bar.</string>
+		</dict>
+	</array>
+	<key>title</key>	<string></string>
+</dict>
+</plist>

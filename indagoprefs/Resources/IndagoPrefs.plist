@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+	    	<key>cell</key>				<string>PSGroupCell</string>
+	    	<key>footerCellClass</key>	<string>IndagoPrefsCustomCell</string>
+		</dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>			<string>Indago Browser</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>browserEnabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>icon</key>				<string>IndagoBrowser.png</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+		<dict>
+			<key>cell</key>				<string>PSLinkCell</string>
+			<key>label</key>			<string>Activation Methods</string>
+			<key>icon</key>				<string>IndagoActivatorIcon.png</string>
+			<key>isController</key>		<true/>
+			<key>bundle</key>			<string>LibActivator</string>
+			<key>activatorListener</key><string>com.TweaksByLogan.IndagoBrowser</string>
+		</dict>
+
+		<dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+            <key>label</key>			<string>Indago Search</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSSwitchCell</string>
+            <key>cellClass</key>        <string>IndagoCustomSwitchCell</string>
+            <key>default</key>          <true/>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>key</key>              <string>searchEnabled</string>
+            <key>label</key>            <string>Enabled</string>
+            <key>icon</key>				<string>IndagoSearch.png</string>
+            <key>PostNotification</key> <string>com.TweaksByLogan.Indago/saved</string>
+        </dict>
+
+		<dict>
+			<key>cell</key>				<string>PSLinkCell</string>
+			<key>label</key>			<string>Activation Methods</string>
+			<key>icon</key>				<string>IndagoActivatorIcon.png</string>
+			<key>isController</key>		<true/>
+			<key>bundle</key>			<string>LibActivator</string>
+			<key>activatorListener</key><string>com.TweaksByLogan.IndagoSearch</string>
+		</dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>IndagoSettingsController</string>
+            <key>label</key>            <string>Settings</string>
+            <key>icon</key>             <string>IndagoSettings.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>IndagoInstructionsController</string>
+            <key>label</key>            <string>Instructions</string>
+            <key>icon</key>             <string>IndagoInstructions.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSLinkCell</string>
+            <key>detail</key>           <string>IndagoSupportController</string>
+            <key>label</key>            <string>Support</string>
+            <key>icon</key>             <string>IndagoSupport.png</string>
+        </dict>
+
+        <dict>
+            <key>cell</key>             <string>PSGroupCell</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>respring</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>label</key>            <string>Respring</string>
+            <key>icon</key>             <string>IndagoRespring.png</string>
+        </dict>
+
+        <dict>
+            <key>action</key>           <string>followLogan</string>
+            <key>cell</key>             <string>PSButtonCell</string>
+            <key>defaults</key>         <string>com.TweaksByLogan.Indago</string>
+            <key>label</key>            <string>Follow @logandev22</string>
+            <key>icon</key>             <string>IndagoTwitter.png</string>
+        </dict>
+
+		<dict>
+        	<key>cell</key>				<string>PSGroupCell</string>
+			<key>footerText</key>		<string>© 2015 Logan O'Connell</string>
+			<key>footerAlignment</key>	<integer>1</integer>
+		</dict>
+	</array>
+	<key>title</key>   <string></string>
+</dict>
+</plist>
